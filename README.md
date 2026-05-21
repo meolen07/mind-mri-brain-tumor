@@ -5,16 +5,8 @@
 | | |
 |---|---|
 | **Live demo** | [https://mind-2026.streamlit.app/](https://mind-2026.streamlit.app/) |
+| **Report** | [https://github.com/meolen07/mind-mri-brain-tumor/blob/main/report.pdf](https://github.com/meolen07/mind-mri-brain-tumor/blob/main/report.pdf) |
 | **Repository** | [https://github.com/meolen07/mind-mri-brain-tumor](https://github.com/meolen07/mind-mri-brain-tumor) |
-
----
-
-## Report
-
-**[Download / view `report.pdf` on GitHub](https://github.com/meolen07/mind-mri-brain-tumor/blob/main/report.pdf)** — compiled project report (methodology, results, figures, references).  
-Place the built PDF at the **repository root** as `report.pdf` and push so this link stays valid. To rebuild locally, compile `report/main.tex` (see `report/README_report.md`).
-
----
 
 ## Overview
 
@@ -38,7 +30,7 @@ MIND is an end-to-end pipeline for four-class brain tumor MRI classification: do
 - **Training script** — stratified train/validation split; checkpoint saved to `weights/best_model.pth`
 - **Optional plots** — `plot_confusion_matrix.py` and `plot_training_curve.py` regenerate report figures
 
-## Results (final training run)
+## Results
 
 | Metric | Value |
 |--------|--------|
@@ -48,7 +40,7 @@ MIND is an end-to-end pipeline for four-class brain tumor MRI classification: do
 | Split | 4,760 train / 840 validation images (85/15 stratified) |
 | Training | 15 epochs, Adam, EfficientNet-B0 fine-tuning |
 
-See the **[Report](#report)** PDF for the confusion matrix, training curves, and full write-up.
+See the **[Report](https://github.com/meolen07/mind-mri-brain-tumor/blob/main/report.pdf)** PDF for the confusion matrix, training curves, and full write-up.
 
 ## Project structure
 
@@ -59,7 +51,7 @@ MIND/
 ├── requirements.txt
 ├── plot_confusion_matrix.py    # Regenerate confusion matrix figure
 ├── plot_training_curve.py      # Regenerate training curve figure
-├── report.pdf                  # Project report (PDF) — link in [Report](#report)
+├── report.pdf                  # Project report (PDF)
 ├── src/
 │   ├── model.py                # EfficientNet-B0 builder
 │   ├── inference.py            # Preprocess + predict
@@ -83,7 +75,7 @@ The `data/` directory is **not** committed to this repository (listed in `.gitig
 ```
 data/Training/glioma/
 data/Training/meningioma/
-data/Training/notumor/      # or no_tumor
+data/Training/notumor/   
 data/Training/pituitary/
 ```
 
@@ -170,7 +162,3 @@ If you use MIND in academic or research work, please cite the repository, the da
 ## Author
 
 **Huynh Mai Linh Nguyen** — 2026
-
----
-
-For optional files to trim before publishing, see [DELETION_GUIDE.md](DELETION_GUIDE.md).
