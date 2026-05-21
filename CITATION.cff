@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use MIND in academic or research work, please cite it as below."
+title: "MIND: MRI-based Intelligent Neural Detection"
+type: software
+authors:
+  - family-names: "Nguyen"
+    given-names: "Huynh Mai Linh"
+repository-code: "https://github.com/meolen07/mind-mri-brain-tumor"
+url: "https://mind-2026.streamlit.app/"
+abstract: "MIND is an MRI-based deep learning application for four-class brain tumor classification: glioma, meningioma, no tumor, and pituitary tumor. It uses an EfficientNet-B0 backbone and provides an interactive Streamlit demo for educational and research use."
+keywords:
+  - brain tumor detection
+  - MRI
+  - deep learning
+  - PyTorch
+  - EfficientNet
+  - Streamlit
+license: MIT
+date-released: 2026-05-21
