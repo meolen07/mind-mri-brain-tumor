@@ -1,0 +1,15 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset (large — fetch from Kaggle per README)
+data/
