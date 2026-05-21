@@ -1,4 +1,8 @@
 # MIND — MRI-based Intelligent Neural Detection
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-EfficientNet--B0-red)
+![Streamlit](https://img.shields.io/badge/Streamlit-Live%20Demo-ff4b4b)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
 **Deep learning brain MRI classifier** (Glioma, Meningioma, No Tumor, Pituitary Tumor) with an EfficientNet-B0 backbone and a Streamlit demo for educational and research use.
 
