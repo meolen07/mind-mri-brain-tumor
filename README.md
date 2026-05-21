@@ -127,6 +127,13 @@ The public demo is hosted on **[Streamlit Community Cloud](https://mind-2026.str
 
 This software is for **educational and research purposes only**. It is **not** intended to diagnose, treat, or prevent any disease and must **not** replace professional medical judgment. Always consult qualified healthcare professionals for medical decisions.
 
+## Limitations
+
+- This model was trained on a public Kaggle dataset and has not been clinically validated.
+- Predictions may be unreliable for MRI images from different scanners, protocols, crops, or patient populations.
+- The app performs image-level classification only; it does not localize or segment tumors.
+- This project is for education and research, not diagnosis.
+
 ## License
 
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for the full text.
