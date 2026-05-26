@@ -169,7 +169,7 @@ If you use MIND in academic or research work, please cite the repository, the da
   note      = {arXiv:1905.11946}
 }
 ```
-Full related work and bibliography are in **[report.pdf](https://github.com/meolen07/mind-mri-brain-tumor/blob/main/report.pdf)**
+For the complete reference list, see the **[Report](https://github.com/meolen07/mind-mri-brain-tumor/blob/main/report.pdf)** PDF.
 ## Author
 
 **Huynh Mai Linh Nguyen** — 2026
